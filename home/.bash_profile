@@ -32,6 +32,7 @@ alias gspop="git stash pop"
 alias rake="bundle exec rake"
 
 alias code="cd ~/Code"
+alias dotfiles="cd ~/.homesick/repos/dotfiles"
 alias cdfit="cd ~/Documents/Fittery/new_repo/fittery"
 alias cdtts="cd ~/Code/TTS"
 alias cdjs="cd ~/Code/TTS/Javascript"
