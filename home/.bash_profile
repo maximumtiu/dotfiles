@@ -4,13 +4,16 @@ export PATH="/Applications/chromedriver:$PATH"
 export PATH="/Library/Frameworks/Python.framework/Versions/3.4/bin:${PATH}" # Python 3.4, original saved in .bash_profile.pysave
 export PATH="/usr/bin/python:$PATH"
 
+# Set terminal to support 256 colors
 export TERM=xterm-256color
 
+# Common directory aliases
 alias ls="ls -lah"
 alias ..="cd .."
 alias ...="cd ../.."
 alias ....="cd ../../.."
 
+# Because `git` aliases are still too much typing
 alias gs="git status -sb"
 alias gb="git branch"
 alias gco="git checkout"
@@ -28,9 +31,12 @@ alias gf="git fetch"
 alias gst="git stash"
 alias gsl="git stash list"
 alias gspop="git stash pop"
+alias gundo="git reset --soft HEAD~1"
 
+alias be="bundle exec"
 alias rake="bundle exec rake"
 
+# Directory aliases for easy navigation
 alias code="cd ~/Code"
 alias dotfiles="cd ~/.homesick/repos/dotfiles"
 alias cdfit="cd ~/Documents/Fittery/new_repo/fittery"
@@ -44,6 +50,7 @@ alias microsite="cd ~/Documents/Fittery/microsite-boilerplate"
 alias fitteryjs="cd ~/Documents/Fittery/fitteryjs"
 alias my_site="cd ~/Code/TTS/Rails/my_site"
 
+# Utility commands
 alias weather="curl http://wttr.in/atlanta"
 alias lunch="ruby ~/Code/Ruby/lunch.rb"
 

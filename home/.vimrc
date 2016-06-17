@@ -6,6 +6,10 @@ set autoread
 set tabstop=2
 set shiftwidth=2
 set softtabstop=2
+set expandtab
+set autoindent
+set cursorline
+set wrap
 
 set nocompatible    " Diable vi-compatibility
 filetype off        " required for vundle
