@@ -11,7 +11,7 @@ alias ..="cd .."
 alias ...="cd ../.."
 alias ....="cd ../../.."
 
-alias gs="git status"
+alias gs="git status -sb"
 alias gb="git branch"
 alias gco="git checkout"
 alias ga="git add"
@@ -52,6 +52,7 @@ alias pgstart="pg_ctl start -D /usr/local/var/postgres -l /usr/local/var/postgre
 alias pgstop="pg_ctl stop -D /usr/local/var/postgres"
 alias pgdump="~/Code/Scripts/prod_db.sh"
 alias html2haml="find . -name \*.erb -print | sed 'p;s/.erb$/.haml/' | xargs -n2 html2haml"
+alias tree="find ./ -type d -print | sed -e 's;[^/]*/;|____;g;s;____|; |;g'"
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
 
