@@ -18,7 +18,7 @@ alias gs="git status -sb"
 alias gb="git branch"
 alias gco="git checkout"
 alias ga="git add"
-alias gr="git reset"
+alias grs="git reset"
 alias gc="git commit"
 alias gcam="git commit -am"
 alias gl="git log"
@@ -26,29 +26,30 @@ alias gp="git push"
 alias gpo="git push origin"
 alias gdH="git diff HEAD"
 alias gd="git diff"
-alias gr="git rebase"
+alias gre="git rebase"
 alias gf="git fetch"
 alias gst="git stash"
 alias gsl="git stash list"
 alias gspop="git stash pop"
 alias gundo="git reset --soft HEAD~1"
 
+# Always prefer bundle exec everything
 alias be="bundle exec"
 alias rake="bundle exec rake"
 
 # Directory aliases for easy navigation
 alias code="cd ~/Code"
 alias dotfiles="cd ~/.homesick/repos/dotfiles"
+alias scripts="cd ~/Code/Scripts"
+alias my_site="cd ~/Code/TTS/Rails/my_site"
+
+# Fittery dirs
 alias cdfit="cd ~/Documents/Fittery/new_repo/fittery"
-alias cdtts="cd ~/Code/TTS"
-alias cdjs="cd ~/Code/TTS/Javascript"
-alias cdsh="cd ~/Code/Scripts"
 alias cdbp="cd ~/Documents/Fittery/bodyprofiler"
 alias bodypro="cd ~/Documents/Fittery/bodypro-api"
 alias fitbrowser="cd ~/Documents/Fittery/fitbrowser"
 alias microsite="cd ~/Documents/Fittery/microsite-boilerplate"
 alias fitteryjs="cd ~/Documents/Fittery/fitteryjs"
-alias my_site="cd ~/Code/TTS/Rails/my_site"
 
 # Utility commands
 alias weather="curl http://wttr.in/atlanta"
@@ -61,7 +62,8 @@ alias pgdump="~/Code/Scripts/prod_db.sh"
 alias html2haml="find . -name \*.erb -print | sed 'p;s/.erb$/.haml/' | xargs -n2 html2haml"
 alias tree="find ./ -type d -print | sed -e 's;[^/]*/;|____;g;s;____|; |;g'"
 
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
+# Load RVM into a shell session *as a function*
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
 
 # for pyenv
 # https://github.com/yyuu/pyenv#homebrew-on-mac-os-x
