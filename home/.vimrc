@@ -3,7 +3,7 @@ set t_Co=256 " Explicitly support 256-colored terminal
 set encoding=utf-8
 
 set autoread
-
+set ignorecase        " case insensitive searching
 set tabstop=2
 set shiftwidth=2
 set softtabstop=2
