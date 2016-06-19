@@ -22,12 +22,11 @@ call vundle#begin()
 
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
-Plugin 'ksmithbaylor/tomorrow-theme', {'rtp': 'vim/'} " modified
+Plugin 'ksmithbaylor/tomorrow-theme', {'rtp': 'vim/'}
 Plugin 'othree/html5.vim'
 Plugin 'lilydjwg/colorizer'
 Plugin 'leafgarland/typescript-vim'
 Plugin 'vim-airline/vim-airline'
-Plugin 'vim-airline/vim-airline-themes'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'scrooloose/nerdcommenter'
@@ -66,6 +65,7 @@ noremap } >2j
 " Rspec-Vim
 noremap <Leader>spa :call RunAllSpecs()<CR>
 noremap <Leader>sp :call RunCurrentSpecFile()<CR>
+noremap <Leader>spn :call RunNearestSpec()<CR>
 
 " air-line
 let g:airline_powerline_fonts = 1
