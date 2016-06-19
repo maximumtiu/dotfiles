@@ -1,20 +1,21 @@
 syntax enable
-set t_Co=256 " Explicitly support 256-colored terminal
-set encoding=utf-8
+set t_Co=256        " Explicitly support 256-colored terminal
+set encoding=utf-8  " Always use utf-8
 
-set autoread
-set ignorecase        " case insensitive searching
-set tabstop=2
-set shiftwidth=2
-set softtabstop=2
-set expandtab
-set autoindent
-set cursorline
-set wrap
-
+set autoread        " Reload files when changed
+set ignorecase      " case insensitive searching
+set expandtab       " Converts tabs to spaces
+set autoindent      " Copy indentation from the previous line
+set cursorline      " Highlight the line where the cursor is
+set wrap            " Wrap long lines
 set nocompatible    " Diable vi-compatibility
 filetype off        " required for vundle
 set laststatus=2    " Always show the statusline
+
+" Settings for two-space tabs
+set tabstop=2
+set shiftwidth=2
+set softtabstop=2
 
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
@@ -42,6 +43,7 @@ Plugin 'Townk/vim-autoclose'
 call vundle#end()            " required
 filetype plugin indent on    " required
 
+" Styling
 colorscheme Tomorrow-Night-Bright
 set number
 highlight LineNr      ctermbg=235
@@ -67,14 +69,14 @@ noremap <Leader>spa :call RunAllSpecs()<CR>
 noremap <Leader>sp :call RunCurrentSpecFile()<CR>
 noremap <Leader>spn :call RunNearestSpec()<CR>
 
-" air-line
+" airline config
 let g:airline_powerline_fonts = 1
 
 if !exists('g:airline_symbols')
   let g:airline_symbols = {}
 endif
 
-" unicode symbols
+" unicode symbols for airline
 let g:airline_left_sep = '»'
 let g:airline_left_sep = '▶'
 let g:airline_right_sep = '«'
