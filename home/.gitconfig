@@ -13,3 +13,5 @@
 	diff = diff-highlight | less
 [alias]
 	s = status -sb
+[core]
+	editor = /usr/bin/vim
