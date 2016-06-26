@@ -12,6 +12,9 @@ set nocompatible    " Diable vi-compatibility
 filetype off        " required for vundle
 set laststatus=2    " Always show the statusline
 
+" Autosave on buffer change or focus loss
+autocmd BufLeave,FocusLost * silent! w
+
 " Settings for two-space tabs
 set tabstop=2
 set shiftwidth=2
@@ -38,6 +41,10 @@ Plugin 'tpope/vim-surround'
 Plugin 'tpope/vim-fugitive'
 Plugin 'tpope/vim-endwise'
 Plugin 'Townk/vim-autoclose'
+Plugin 'pangloss/vim-javascript'
+Plugin 'mxw/vim-jsx'
+Plugin 'terryma/vim-multiple-cursors'
+Plugin 'tpope/vim-markdown'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -57,12 +64,11 @@ noremap <Leader>tn :tabnew<CR>
 noremap <Leader>s :w<CR>
 noremap <Leader>w :tab close
 noremap <Leader>f :CtrlP<CR>
-noremap <Leader>nt :NERDTree
-noremap <Leader>ntc :NERDTreeClose
+noremap <Leader>tr :NERDTreeToggle
 noremap <Leader>wh :split
 noremap <Leader>wv :vsplit
-noremap { <2j
-noremap } >2j
+noremap { <j
+noremap } >j
 
 " Rspec-Vim
 noremap <Leader>spa :call RunAllSpecs()<CR>
