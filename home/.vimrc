@@ -64,9 +64,9 @@ noremap <Leader>tn :tabnew<CR>
 noremap <Leader>s :w<CR>
 noremap <Leader>w :tab close
 noremap <Leader>f :CtrlP<CR>
-noremap <Leader>tr :NERDTreeToggle
-noremap <Leader>wh :split
-noremap <Leader>wv :vsplit
+noremap <Leader>tr :NERDTreeToggle<CR>
+noremap <Leader>wh :split<CR>
+noremap <Leader>wv :vsplit<CR>
 noremap { <j
 noremap } >j
 
