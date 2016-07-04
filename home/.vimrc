@@ -1,4 +1,4 @@
-syntax enable
+syntax enable       " Gimme the pretty colors
 set t_Co=256        " Explicitly support 256-colored terminal
 set encoding=utf-8  " Always use utf-8
 
@@ -53,16 +53,17 @@ filetype plugin indent on    " required
 " Styling
 colorscheme Tomorrow-Night-Bright
 set number
-highlight LineNr      ctermbg=235
-highlight LineNr      ctermfg=067
+" Set left gutter to dark grey, line numbers to light blue
+highlight LineNr ctermbg=235
+highlight LineNr ctermfg=067
 
 " Key mappings
 noremap <Leader>e :Explore
 noremap <Leader>t :tabfind<Space>
 noremap <Leader>ins :PluginInstall<CR>
 noremap <Leader>tn :tabnew<CR>
-noremap <Leader>s :w<CR>
-noremap <Leader>w :tab close
+noremap <Leader>w :w<CR>
+noremap <Leader>cl :tab close
 noremap <Leader>f :CtrlP<CR>
 noremap <Leader>tr :NERDTreeToggle<CR>
 noremap <Leader>wh :split<CR>
