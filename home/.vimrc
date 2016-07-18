@@ -11,6 +11,8 @@ set wrap            " Wrap long lines
 set nocompatible    " Diable vi-compatibility
 filetype off        " required for vundle
 set laststatus=2    " Always show the statusline
+set colorcolumn=80  " Show a vertical line at 80 characters
+set backspace=2     " Lets the backspace key behave normally
 
 " Autosave on buffer change or focus loss
 autocmd BufLeave,FocusLost * silent! w
