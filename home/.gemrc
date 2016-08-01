@@ -1,0 +1,2 @@
+# don't install documentation for gems
+gem: --no-ri --no-rdoc
