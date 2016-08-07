@@ -47,6 +47,8 @@ Plugin 'pangloss/vim-javascript'
 Plugin 'mxw/vim-jsx'
 Plugin 'terryma/vim-multiple-cursors'
 Plugin 'tpope/vim-markdown'
+Plugin 'rizzatti/dash.vim'
+Plugin 'ervandew/supertab'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
