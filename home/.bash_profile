@@ -72,6 +72,11 @@ alias tree="find ./ -type d -print | sed -e 's;[^/]*/;|____;g;s;____|; |;g'"
 # https://github.com/yyuu/pyenv#homebrew-on-mac-os-x
 if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi
 
+# git exclude
+git_exclude() {
+  echo $1 >> .git/info/exclude
+}
+
 # ls colors
 export CLICOLOR=1
 export LSCOLORS=gxBxhxDxfxhxhxhxhxcxcx
