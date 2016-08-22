@@ -53,6 +53,9 @@ alias fitbrowser="cd ~/Documents/Fittery/fitbrowser"
 alias microsite="cd ~/Documents/Fittery/microsite-boilerplate"
 alias fitteryjs="cd ~/Documents/Fittery/fitteryjs"
 
+# CallRail dirs
+alias callrail="cd ~/Code/callrail"
+
 # Utility commands
 alias weather="curl http://wttr.in/atlanta"
 alias lunch="ruby ~/Code/Ruby/lunch.rb"
