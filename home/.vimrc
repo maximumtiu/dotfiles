@@ -49,6 +49,7 @@ Plugin 'terryma/vim-multiple-cursors'
 Plugin 'tpope/vim-markdown'
 Plugin 'rizzatti/dash.vim'
 Plugin 'ervandew/supertab'
+Plugin 'ngmy/vim-rubocop'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -111,3 +112,6 @@ let g:airline_symbols.linenr = ''
 " NERDTree
 let g:NERDTreeShowHidden = 1
 let g:NERDTreeMinimalUI = 1
+
+" vim-rubocop
+let g:vimrubocop_config = '~/Code/callrail/.rubocop.yml'
