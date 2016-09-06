@@ -63,7 +63,6 @@ highlight LineNr ctermbg=235
 highlight LineNr ctermfg=067
 
 " Key mappings
-noremap <Leader>e :Explore
 noremap <Leader>t :tabfind<Space>
 noremap <Leader>ins :PluginInstall<CR>
 noremap <Leader>tn :tabnew<CR>
