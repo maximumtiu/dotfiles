@@ -59,7 +59,7 @@ alias callrail="cd ~/Code/callrail"
 
 # Utility commands
 alias weather="curl http://wttr.in/atlanta"
-alias lunch="ruby ~/Code/Ruby/lunch.rb"
+alias lunch="ruby ~/Code/Ruby/lunch/lib/lunch.rb"
 
 # Making my life a little easier
 alias redis="redis-server"
@@ -68,6 +68,9 @@ alias pgstop="pg_ctl stop -D /usr/local/var/postgres"
 alias pgdump="~/Code/Scripts/prod_db.sh"
 alias html2haml="find . -name \*.erb -print | sed 'p;s/.erb$/.haml/' | xargs -n2 html2haml"
 alias tree="find ./ -type d -print | sed -e 's;[^/]*/;|____;g;s;____|; |;g'"
+alias repow="touch tmp/restart.txt"
+alias powerrr="touch ~/.pow/restart.txt"
+alias server="tail -f log/development.log"
 
 # Load RVM into a shell session *as a function*
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
