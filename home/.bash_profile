@@ -46,6 +46,7 @@ alias code="cd ~/Code"
 alias dotfiles="cd ~/.homesick/repos/dotfiles"
 alias scripts="cd ~/Code/Scripts"
 alias my_site="cd ~/Code/TTS/Rails/my_site"
+alias lunch-dir="cd ~/Code/Ruby/lunch"
 
 # Fittery dirs
 alias cdfit="cd ~/Documents/Fittery/new_repo/fittery"
@@ -72,6 +73,7 @@ alias tree="find ./ -type d -print | sed -e 's;[^/]*/;|____;g;s;____|; |;g'"
 alias repow="touch tmp/restart.txt"
 alias powerrr="touch ~/.pow/restart.txt"
 alias server="tail -f log/development.log"
+alias dev-notes="cat ~/Documents/dev-notes.txt"
 
 # Load RVM into a shell session *as a function*
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
