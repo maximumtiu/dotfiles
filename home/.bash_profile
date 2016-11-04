@@ -87,6 +87,13 @@ git_exclude() {
   echo $1 >> .git/info/exclude
 }
 
+# prints all colors for a 256-colored terminal
+term_colors() {
+  for i in {0..255}; do
+    printf "\x1b[38;5;${i}mcolour${i}\x1b[0m\n"
+  done
+}
+
 # ls colors
 export CLICOLOR=1
 export LSCOLORS=gxBxhxDxfxhxhxhxhxcxcx
