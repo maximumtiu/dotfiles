@@ -45,7 +45,7 @@ alias rake="bundle exec rake"
 alias code="cd ~/Code"
 alias dotfiles="cd ~/.homesick/repos/dotfiles"
 alias scripts="cd ~/Code/Scripts"
-alias my_site="cd ~/Code/TTS/Rails/my_site"
+alias my_site="cd ~/Code/Rails/my_site"
 alias lunch-dir="cd ~/Code/Ruby/lunch"
 
 # Fittery dirs
