@@ -114,3 +114,6 @@ let g:NERDTreeMinimalUI = 1
 
 " vim-rubocop
 let g:vimrubocop_config = '~/Code/callrail/.rubocop.yml'
+
+" ctrlp exclude node_modules dir
+let g:ctrlp_custom_ignore = 'node_modules'
