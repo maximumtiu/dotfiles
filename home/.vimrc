@@ -75,9 +75,9 @@ noremap <Leader>wh :split<CR>
 noremap <Leader>wv :vsplit<CR>
 
 " Rspec-Vim
-noremap <Leader>spa :call RunAllSpecs()<CR>
-noremap <Leader>sp :call RunCurrentSpecFile()<CR>
-noremap <Leader>spn :call RunNearestSpec()<CR>
+noremap <Leader>spa :w <bar> :call RunAllSpecs()<CR>
+noremap <Leader>sp :w <bar> :call RunCurrentSpecFile()<CR>
+noremap <Leader>spn :w <bar> :call RunNearestSpec()<CR>
 
 " airline config
 let g:airline_powerline_fonts = 1
