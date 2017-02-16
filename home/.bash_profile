@@ -40,6 +40,7 @@ alias gsl="git stash list"
 alias gspop="git stash pop"
 alias gundo="git reset --soft HEAD~1"
 alias gcp="git cherry-pick"
+alias gdlast="git diff HEAD^ HEAD"
 
 # Always prefer bundle exec everything
 alias be="bundle exec"
