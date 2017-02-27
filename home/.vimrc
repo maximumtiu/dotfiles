@@ -73,6 +73,8 @@ noremap <Leader>f :CtrlP<CR>
 noremap <Leader>tr :NERDTreeToggle<CR>
 noremap <Leader>wh :split<CR>
 noremap <Leader>wv :vsplit<CR>
+noremap <Leader>r :edit<CR>
+noremap <Leader>r! :edit<CR>
 
 " Rspec-Vim
 noremap <Leader>spa :w <bar> :call RunAllSpecs()<CR>
