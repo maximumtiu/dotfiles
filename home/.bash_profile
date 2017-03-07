@@ -79,6 +79,7 @@ alias repow="touch tmp/restart.txt"
 alias powerrr="touch ~/.pow/restart.txt"
 alias server="tail -f log/development.log"
 alias dev-notes="cat ~/Documents/dev-notes.txt"
+alias add_ssh_key="ssh-add -K ~/.ssh/id_rsa"
 
 # Load RVM into a shell session *as a function*
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
