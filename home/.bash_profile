@@ -10,11 +10,12 @@ export NVM_DIR="/Users/Megan/.nvm"
 # Set terminal to support 256 colors
 export TERM=xterm-256color
 
-# Common directory aliases
+# Common utility aliases
 alias ls="ls -lah"
 alias ..="cd .."
 alias ...="cd ../.."
 alias ....="cd ../../.."
+alias grep="grep --color"
 
 # Because `git` aliases are still too much typing
 alias gs="git status -sb"
