@@ -51,6 +51,7 @@ Plugin 'rizzatti/dash.vim'
 Plugin 'ervandew/supertab'
 Plugin 'ngmy/vim-rubocop'
 Plugin 'digitaltoad/vim-pug'
+Plugin 'Glench/Vim-Jinja2-Syntax'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
