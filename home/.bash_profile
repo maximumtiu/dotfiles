@@ -12,6 +12,7 @@ export TERM=xterm-256color
 
 # env vars for the tiny-care-terminal
 # https://github.com/notwaldorf/tiny-care-terminal
+export TTC_GITBOT="gitlog"
 export TTC_WEATHER="Atlanta"
 export TTC_CELSIUS="false"
 export TTC_APIKEYS="false"
