@@ -1,4 +1,4 @@
-PATH=/usr/local/bin:$PATH
+export PATH=/usr/local/bin:$PATH
 export PATH=~/:$PATH
 export PATH="/Applications/chromedriver:$PATH"
 export PATH="/Library/Frameworks/Python.framework/Versions/3.4/bin:${PATH}" # Python 3.4, original saved in .bash_profile.pysave
