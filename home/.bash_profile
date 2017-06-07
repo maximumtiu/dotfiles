@@ -1,3 +1,5 @@
+source ~/.bashrc
+
 export PATH=/usr/local/bin:$PATH
 export PATH=~/:$PATH
 export PATH="/Applications/chromedriver:$PATH"
