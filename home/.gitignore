@@ -1,2 +1,5 @@
-*.sw* # Ignore Vim files
+# Ignore Vim files
+*.swp
+*.swo
+
 .DS_Store
