@@ -74,6 +74,7 @@ alias fitteryjs="cd ~/Documents/Fittery/fitteryjs"
 
 # CallRail dirs
 alias callrail="cd ~/Code/callrail"
+alias ring="cd ~/Code/ring-astley"
 
 # Utility commands
 alias weather="curl http://wttr.in/atlanta"
