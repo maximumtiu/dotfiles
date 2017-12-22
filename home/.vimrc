@@ -78,6 +78,10 @@ noremap <Leader>wv :vsplit<CR>
 noremap <Leader>r :edit<CR>
 noremap <Leader>r! :edit<CR>
 
+" keep selected text selected when fixing indentation
+vnoremap < <gv
+vnoremap > >gv
+
 " Rspec-Vim
 noremap <Leader>spa :w <bar> :call RunAllSpecs()<CR>
 noremap <Leader>sp :w <bar> :call RunCurrentSpecFile()<CR>
