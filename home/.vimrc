@@ -2,6 +2,8 @@ syntax enable       " Gimme the pretty colors
 set t_Co=256        " Explicitly support 256-colored terminal
 set encoding=utf-8  " Always use utf-8
 
+let mapleader = ";"
+
 set autoread        " Reload files when changed
 set ignorecase      " case insensitive searching
 set expandtab       " Converts tabs to spaces
