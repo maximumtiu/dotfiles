@@ -1,0 +1,10 @@
+#!/bin/bash
+
+scripts_dir=usr/local/bin
+target_dir=/usr/local/bin
+[[ ! -d $target_dir ]] && mkdir -p $target_dir
+
+for file in `find $scripts_dir` ; do
+  filename=$(echo $file | cut -d "/" -f4)
+  [[ -n $filename ]] && ln -s $(pwd)/$scripts_dir/$filename $target_dir/$filename
+done
