@@ -100,11 +100,6 @@ alias add_ssh_key="ssh-add -K ~/.ssh/id_rsa"
 # https://github.com/yyuu/pyenv#homebrew-on-mac-os-x
 if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi
 
-# git exclude
-git_exclude() {
-  echo $1 >> .git/info/exclude
-}
-
 # prints all colors for a 256-colored terminal
 term_colors() {
   for i in {0..255}; do
