@@ -127,7 +127,7 @@ let g:NERDTreeMinimalUI = 1
 let g:vimrubocop_config = '~/Code/callrail/.rubocop.yml'
 
 " ctrlp exclude node_modules dir
-let g:ctrlp_custom_ignore = 'node_modules'
+let g:ctrlp_custom_ignore = 'node_modules\|vendor\|git'
 
 " Syntastic
 set statusline+=%#warningmsg#
