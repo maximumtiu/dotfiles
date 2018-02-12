@@ -1,4 +1,5 @@
 source ~/.bashrc
+export EDITOR="vim"
 
 export PATH=/usr/local/bin:$PATH
 export PATH=~/:$PATH
@@ -76,6 +77,9 @@ alias fitteryjs="cd ~/Documents/Fittery/fitteryjs"
 # CallRail dirs
 alias callrail="cd ~/Code/callrail"
 alias ring="cd ~/Code/ring-astley"
+alias swappy=" cd ~/Code/swappy "
+alias rowdy=" cd ~/Code/rowdy"
+alias ans=" cd ~/Code/ansible-ops"
 
 # Utility commands
 alias weather="curl http://wttr.in/atlanta"
