@@ -111,6 +111,12 @@ term_colors() {
   done
 }
 
+flash-s65() {
+  dfu-programmer atmega32u4 erase
+  dfu-programmer atmega32u4 flash ~/Dropbox/QMK/s65wiremod.hex
+  dfu-programmer atmega32u4 start
+}
+
 # ls colors
 export CLICOLOR=1
 export LSCOLORS=gxBxhxDxfxhxhxhxhxcxcx
