@@ -74,12 +74,8 @@ alias fitbrowser="cd ~/Documents/Fittery/fitbrowser"
 alias microsite="cd ~/Documents/Fittery/microsite-boilerplate"
 alias fitteryjs="cd ~/Documents/Fittery/fitteryjs"
 
-# CallRail dirs
-alias callrail="cd ~/Code/callrail"
-alias ring="cd ~/Code/ring-astley"
-alias swappy=" cd ~/Code/swappy "
-alias rowdy=" cd ~/Code/rowdy"
-alias ans=" cd ~/Code/ansible-ops"
+# WWC dirs
+alias website="cd ~/Code/website"
 
 # Utility commands
 alias weather="curl http://wttr.in/atlanta"
