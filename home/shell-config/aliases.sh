@@ -24,6 +24,7 @@ alias gd="git diff"
 alias gds="git diff --staged"
 alias gre="git rebase"
 alias grem="git rebase -i origin/master"
+alias gres="git rebase -i origin/staging"
 alias gf="git fetch"
 alias gst="git stash"
 alias gsl="git stash list"
@@ -54,6 +55,7 @@ alias fitteryjs="cd ~/Documents/Fittery/fitteryjs"
 
 # WWC dirs
 alias website="cd ~/Code/website"
+alias zuul="cd ~/Code/zuul"
 
 # Utility commands
 alias weather="curl http://wttr.in/atlanta"
@@ -70,3 +72,4 @@ alias powerrr="touch ~/.pow/restart.txt"
 alias server="tail -f log/development.log"
 alias dev-notes="cat ~/Documents/dev-notes.txt"
 alias add_ssh_key="ssh-add -K ~/.ssh/id_rsa"
+alias hc="heroku console -a"
