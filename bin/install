@@ -1,9 +1,13 @@
 #!/bin/bash
 
-scripts_dir=usr/local/bin
+vim_tmp_dir=$HOME/.vim/tmp
 target_dir=/usr/local/bin
-[[ ! -d $target_dir ]] && mkdir -p $target_dir
+dirs_to_create=( $vim_tmp_dir $target_dir )
+for dir in $dirs_to_create ; do
+  [[ ! -d $dir ]] && mkdir -p $dir
+done
 
+scripts_dir=usr/local/bin
 for file in `find $scripts_dir` ; do
   filename=$(echo $file | cut -d "/" -f4)
   [[ -n $filename ]] && ln -s $(pwd)/$scripts_dir/$filename $target_dir/$filename
