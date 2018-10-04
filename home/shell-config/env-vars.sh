@@ -13,3 +13,6 @@ export TTC_APIKEYS="false"
 # ls colors
 export CLICOLOR=1
 export LSCOLORS=gxBxhxDxfxhxhxhxhxcxcx
+
+# never Spring. never.
+export DISABLE_SPRING=1
