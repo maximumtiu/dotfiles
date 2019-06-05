@@ -20,3 +20,10 @@ flash-s65() {
   dfu-programmer atmega32u4 flash ~/Dropbox/QMK/s65wiremod.hex
   dfu-programmer atmega32u4 start
 }
+
+# flash my hotdox keyboard, running on QMK firmware
+flash-hotdox() {
+  dfu-programmer atmega32u4 erase
+  dfu-programmer atmega32u4 flash ~/Dropbox/QMK/hotdox.hex
+  dfu-programmer atmega32u4 start
+}
