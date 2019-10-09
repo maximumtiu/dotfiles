@@ -22,7 +22,11 @@ flash-s65() {
 }
 
 # flash my hotdox keyboard, running on QMK firmware
+# before running, press the flash button on the bottom of the board
 flash-hotdox() {
+  cd ~/Dropbox/QMK/qmk_firmware
+  make hotdox:megantiu
+  cp hotdox_megantiu.hex ../hotdox.hex
   dfu-programmer atmega32u4 erase
   dfu-programmer atmega32u4 flash ~/Dropbox/QMK/hotdox.hex
   dfu-programmer atmega32u4 start
