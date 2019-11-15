@@ -4,6 +4,7 @@ set encoding=utf-8  " Always use utf-8
 
 let mapleader = ";" " Set leader key to ;
 
+set backupcopy=no
 set autoread        " Reload files when changed
 set ignorecase      " case insensitive searching
 set expandtab       " Converts tabs to spaces
@@ -54,6 +55,7 @@ Plugin 'tpope/vim-markdown'
 Plugin 'ervandew/supertab'
 Plugin 'ngmy/vim-rubocop'
 Plugin 'digitaltoad/vim-pug'
+Plugin 'joukevandermaas/vim-ember-hbs'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
