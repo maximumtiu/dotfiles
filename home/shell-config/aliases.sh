@@ -57,6 +57,9 @@ alias fitteryjs="cd ~/Documents/Fittery/fitteryjs"
 alias website="cd ~/Code/website"
 alias zuul="cd ~/Code/zuul"
 
+# BetterUp dirs
+alias betterup="cd ~/Code/betterup-app"
+
 # Utility commands
 alias weather="curl http://wttr.in/atlanta"
 alias lunch="ruby ~/Code/Ruby/lunch/lib/lunch.rb"
@@ -73,5 +76,11 @@ alias server="tail -f log/development.log"
 alias dev-notes="cat ~/Documents/dev-notes.txt"
 alias add_ssh_key="ssh-add -K ~/.ssh/id_rsa"
 alias hc="heroku console -a"
+
+# Docker fun
 alias dc="docker-compose"
 alias dcr="docker-compose run"
+alias dce="docker-compose exec"
+alias dl="docker-compose logs --tail=10"
+alias dl-web="dl --follow web"
+alias dl-fe="dl --follow frontend"
