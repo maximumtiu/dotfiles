@@ -4,7 +4,12 @@ set encoding=utf-8  " Always use utf-8
 
 let mapleader = ";" " Set leader key to ;
 
-set backupcopy=no
+" Store temporary files in ~/.vim/tmp
+" Trailing slash in the path stores the directory in the filename
+set directory=$HOME/.vim/tmp//
+set backupdir=$HOME/.vim/tmp//
+set undodir=$HOME/.vim/tmp//
+
 set autoread        " Reload files when changed
 set ignorecase      " case insensitive searching
 set expandtab       " Converts tabs to spaces
@@ -16,7 +21,6 @@ filetype off        " required for vundle
 set laststatus=2    " Always show the statusline
 set colorcolumn=80  " Show a vertical line at 80 characters
 set backspace=2     " Lets the backspace key behave normally
-set directory=$HOME/.vim/tmp/  " Store swapfiles in ~/.vim/tmp
 
 " Autosave on buffer change or focus loss
 autocmd BufLeave,FocusLost * silent! w
