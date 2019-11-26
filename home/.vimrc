@@ -10,6 +10,7 @@ set directory=$HOME/.vim/tmp//
 set backupdir=$HOME/.vim/tmp//
 set undodir=$HOME/.vim/tmp//
 
+set backupcopy=no
 set autoread        " Reload files when changed
 set ignorecase      " case insensitive searching
 set expandtab       " Converts tabs to spaces
