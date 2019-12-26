@@ -10,7 +10,6 @@ set directory=$HOME/.vim/tmp//
 set backupdir=$HOME/.vim/tmp//
 set undodir=$HOME/.vim/tmp//
 
-set backupcopy=no
 set autoread        " Reload files when changed
 set ignorecase      " case insensitive searching
 set expandtab       " Converts tabs to spaces
@@ -22,6 +21,7 @@ filetype off        " required for vundle
 set laststatus=2    " Always show the statusline
 set colorcolumn=80  " Show a vertical line at 80 characters
 set backspace=2     " Lets the backspace key behave normally
+set backupcopy=no
 
 " Autosave on buffer change or focus loss
 autocmd BufLeave,FocusLost * silent! w
