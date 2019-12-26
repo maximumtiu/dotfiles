@@ -72,8 +72,12 @@ filetype plugin indent on    " required
 colorscheme Tomorrow-Night-Bright
 set number
 " Set left gutter to dark grey, line numbers to light blue
-highlight LineNr ctermbg=235
-highlight LineNr ctermfg=067
+"highlight LineNr ctermbg=235
+"highlight LineNr ctermfg=067
+
+if (has("termguicolors"))
+ set termguicolors
+endif
 
 " Key mappings
 noremap <Leader>t :tabfind<Space>
