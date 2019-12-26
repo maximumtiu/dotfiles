@@ -61,6 +61,8 @@ Plugin 'ervandew/supertab'
 Plugin 'ngmy/vim-rubocop'
 Plugin 'digitaltoad/vim-pug'
 Plugin 'joukevandermaas/vim-ember-hbs'
+Plugin 'mustache/vim-mustache-handlebars'
+Plugin 'slim-template/vim-slim.git'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -147,9 +149,12 @@ set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%*
 
+" stop checking HTML files
+let g:syntastic_html_checkers=['']
+
 let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
-let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_open = 0
 let g:syntastic_check_on_wq = 0
 
 " override default cursor number underline, bold it instead
