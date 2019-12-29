@@ -1,5 +1,6 @@
 # Ignore Vim files
 *.swp
 *.swo
+\[Vundle\]\ Installer
 
 .DS_Store
