@@ -37,7 +37,7 @@ call vundle#begin()
 
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
-Plugin 'ksmithbaylor/tomorrow-theme', {'rtp': 'vim/'}
+Plugin 'megantiu/true.vim'
 Plugin 'othree/html5.vim'
 Plugin 'lilydjwg/colorizer'
 Plugin 'leafgarland/typescript-vim'
@@ -69,7 +69,7 @@ call vundle#end()            " required
 filetype plugin indent on    " required
 
 " Styling
-colorscheme Tomorrow-Night-Bright
+colorscheme true
 set number
 " Set left gutter to dark grey, line numbers to light blue
 "highlight LineNr ctermbg=235
