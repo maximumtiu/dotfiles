@@ -31,6 +31,11 @@ set tabstop=2
 set shiftwidth=2
 set softtabstop=2
 
+" vim-polyglot
+" must be set before vim-polyglot is initialized
+" disable rspec syntax highlighting
+let g:polyglot_disabled = ['rspec']
+
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
