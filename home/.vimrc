@@ -76,6 +76,10 @@ if (has("termguicolors"))
  set termguicolors
 endif
 
+" highlight ruby operators
+let ruby_operators = 1
+let ruby_pseudo_operators = 1
+
 " Key mappings
 noremap <Leader>t :tabfind<Space>
 noremap <Leader>ins :PluginInstall<CR>
