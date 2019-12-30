@@ -37,10 +37,9 @@ call vundle#begin()
 
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
+Plugin 'sheerun/vim-polyglot'
 Plugin 'megantiu/true.vim'
-Plugin 'othree/html5.vim'
 Plugin 'lilydjwg/colorizer'
-Plugin 'leafgarland/typescript-vim'
 Plugin 'vim-airline/vim-airline'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'ctrlpvim/ctrlp.vim'
@@ -53,16 +52,9 @@ Plugin 'tpope/vim-surround'
 Plugin 'tpope/vim-fugitive'
 Plugin 'tpope/vim-endwise'
 Plugin 'Townk/vim-autoclose'
-Plugin 'pangloss/vim-javascript'
-Plugin 'mxw/vim-jsx'
 Plugin 'terryma/vim-multiple-cursors'
-Plugin 'tpope/vim-markdown'
 Plugin 'ervandew/supertab'
 Plugin 'ngmy/vim-rubocop'
-Plugin 'digitaltoad/vim-pug'
-Plugin 'joukevandermaas/vim-ember-hbs'
-Plugin 'mustache/vim-mustache-handlebars'
-Plugin 'slim-template/vim-slim.git'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
