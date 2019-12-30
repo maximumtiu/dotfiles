@@ -68,9 +68,6 @@ filetype plugin indent on    " required
 " Styling
 colorscheme true
 set number
-" Set left gutter to dark grey, line numbers to light blue
-"highlight LineNr ctermbg=235
-"highlight LineNr ctermfg=067
 
 if (has("termguicolors"))
  set termguicolors
@@ -166,6 +163,3 @@ let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 0
 let g:syntastic_check_on_wq = 0
-
-" override default cursor number underline, bold it instead
-highlight CursorLineNR term=bold cterm=bold
