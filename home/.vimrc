@@ -41,25 +41,25 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
 " let Vundle manage Vundle, required
-Plugin 'VundleVim/Vundle.vim'
-Plugin 'sheerun/vim-polyglot'
-Plugin 'megantiu/true.vim'
-Plugin 'lilydjwg/colorizer'
-Plugin 'vim-airline/vim-airline'
-Plugin 'airblade/vim-gitgutter'
-Plugin 'ctrlpvim/ctrlp.vim'
-Plugin 'scrooloose/nerdcommenter'
-Plugin 'scrooloose/nerdtree'
-Plugin 'vim-syntastic/syntastic'
-Plugin 'thoughtbot/vim-rspec'
-Plugin 'tpope/vim-rails'
-Plugin 'tpope/vim-surround'
-Plugin 'tpope/vim-fugitive'
-Plugin 'tpope/vim-endwise'
-Plugin 'Townk/vim-autoclose'
-Plugin 'terryma/vim-multiple-cursors'
-Plugin 'ervandew/supertab'
-Plugin 'ngmy/vim-rubocop'
+Plugin 'VundleVim/Vundle.vim' " package manager
+Plugin 'sheerun/vim-polyglot' " multi-language syntax highlighting
+Plugin 'megantiu/true.vim' " my personal colorscheme
+Plugin 'lilydjwg/colorizer' " highlight color hex codes
+Plugin 'vim-airline/vim-airline' " pretty airline status bar
+Plugin 'airblade/vim-gitgutter' " show git changes in the gutter
+Plugin 'ctrlpvim/ctrlp.vim' " fuzzy file finding
+Plugin 'scrooloose/nerdcommenter' " easily (un)comment blocks of text
+Plugin 'scrooloose/nerdtree' " tree-based file browser
+Plugin 'vim-syntastic/syntastic' " universal linter
+Plugin 'thoughtbot/vim-rspec' " easily run my rspec tests within vim
+Plugin 'tpope/vim-rails' " rails-related shortcuts and highlighting
+Plugin 'tpope/vim-surround' " easily modify surrounding punctuation
+Plugin 'tpope/vim-fugitive' " git interface: blame, diff, etc.
+Plugin 'tpope/vim-endwise' " auto-close ruby ends and more
+Plugin 'Townk/vim-autoclose' " auto-close parens, brackets, etc.
+Plugin 'terryma/vim-multiple-cursors' " sublime-like multi-cursors
+Plugin 'ervandew/supertab' " tab auto-complete
+Plugin 'ngmy/vim-rubocop' " run rubocop within vim
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
