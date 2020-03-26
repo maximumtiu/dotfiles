@@ -18,3 +18,5 @@
 	excludesfile = ~/.gitignore
 [credential]
 	helper = osxkeychain
+[github]
+	user = megantiu@me.com
