@@ -31,7 +31,7 @@ alias gsl="git stash list"
 alias gspop="git stash pop"
 alias gundo="git reset --soft HEAD~1"
 alias gcp="git cherry-pick"
-alias gdlast="git diff HEAD^ HEAD"
+alias gdlast="git diff HEAD\^ HEAD"
 alias gbg="gb | grep $1" # grep the git branch output
 
 # Always prefer bundle exec everything
