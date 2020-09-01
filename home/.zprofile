@@ -1,9 +1,9 @@
 src_dir=~/.homesick/repos/dotfiles/home/shell-config
 
 # these aren't loaded dynamically because they should be in a specific order
-source $src_dir/path.sh
-source $src_dir/env-vars.sh
-source $src_dir/aliases.sh
+source $src_dir/path.zsh
+source $src_dir/env-vars.zsh
+source $src_dir/aliases.zsh
 [ -f ~/.bashrc.private ] && source ~/.bashrc.private
 
 # prints all colors for a 256-colored terminal

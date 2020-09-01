@@ -1,1 +1,1 @@
-source $src_dir/prompt.sh
+source $src_dir/prompt.zsh
