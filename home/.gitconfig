@@ -1,22 +1,36 @@
 [user]
-	name = Megan Tiu
-	email = megantiu@me.com
-[color]
-	ui = auto
+  name = Megan Tiu
+  email = megantiu@me.com
 [filter "lfs"]
-	clean = git-lfs clean %f
-	smudge = git-lfs smudge %f
-	required = true
+  clean = git-lfs clean %f
+  smudge = git-lfs smudge %f
+  required = true
 [pager]
-	log = diff-highlight | less
-	show = diff-highlight | less
-	diff = diff-highlight | less
+  log = diff-highlight | less
+  show = diff-highlight | less
+  diff = diff-highlight | less
 [alias]
-	s = status -sb
+  s = status -sb
 [core]
-	editor = /usr/bin/vim
-	excludesfile = ~/.gitignore
+  editor = /usr/bin/vim
+  excludesfile = ~/.gitignore
 [credential]
-	helper = osxkeychain
+  helper = osxkeychain
 [github]
-	user = megantiu@me.com
+  user = megantiu@me.com
+[color]
+  ui = auto
+[color "status"]
+  added = 49
+  changed = 203
+  branch = 33
+  untracked = 190
+  nobranch = 208
+  localBranch = 214
+  remoteBranch = 33
+[color "diff"]
+  commit = 190
+  new = 49
+  old = 203
+[color "branch"]
+  current = 49
