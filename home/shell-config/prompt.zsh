@@ -1,5 +1,5 @@
 # prompt colors
-blue="%F{87}%"
+blue="%F{81}%"
 purple="%F{165}%"
 pink="%F{213}%"
 white="%F{15}%"
@@ -13,7 +13,7 @@ current_dir="%c"
 current_time="%t"
 
 # git branch in prompt
-parse_git_branch() {
+parse_git_branch () {
   git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'
 }
 
