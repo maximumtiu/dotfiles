@@ -1,9 +1,9 @@
 # prompt colors
-blue="%F{81}%"
+blue="%F{14}%"
 purple="%F{165}%"
-pink="%F{213}%"
+pink="%F{13}%"
 white="%F{15}%"
-green="%F{118}%"
+green="%F{50}%"
 teal="%F{49}%"
 grey="%F{7}%"
 
