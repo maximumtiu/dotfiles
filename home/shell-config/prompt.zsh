@@ -12,9 +12,12 @@ user="%n"
 current_dir="%c"
 current_time="%t"
 
-# git branch in prompt
-parse_git_branch () {
-  git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'
-}
+# Load version control info
+autoload -Uz vcs_info
+precmd() { vcs_info }
 
-export PS1="${blue}\%n${white}\@${pink}\%c${grey}\%t 🌮${teal} $(parse_git_branch)%\ ${grey}"
+# Format the vcs_info_msg_0_ variable
+zstyle ':vcs_info:git:*' formats '(%b)'
+
+setopt PROMPT_SUBST
+export PROMPT='${blue}\%n${white}\@${pink}\%c${grey}\%t 🌮 ${teal} ${vcs_info_msg_0_}%\ ${grey}'
