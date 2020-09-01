@@ -24,7 +24,7 @@ set backspace=2     " Lets the backspace key behave normally
 set backupcopy=no
 
 " Autosave on buffer change or focus loss
-autocmd BufLeave,FocusLost * silent! w
+"autocmd BufLeave,FocusLost * silent! w
 
 " Settings for two-space tabs
 set tabstop=2
