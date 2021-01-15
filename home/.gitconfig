@@ -34,3 +34,5 @@
   old = 203
 [color "branch"]
   current = 49
+[pull]
+	rebase = true
