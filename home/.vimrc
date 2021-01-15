@@ -51,7 +51,7 @@ Plugin 'ctrlpvim/ctrlp.vim' " fuzzy file finding
 Plugin 'scrooloose/nerdcommenter' " easily (un)comment blocks of text
 Plugin 'scrooloose/nerdtree' " tree-based file browser
 Plugin 'vim-syntastic/syntastic' " universal linter
-Plugin 'thoughtbot/vim-rspec' " easily run my rspec tests within vim
+Plugin 'vim-test/vim-test' " easily run various types of tests within vim
 Plugin 'tpope/vim-rails' " rails-related shortcuts and highlighting
 Plugin 'tpope/vim-surround' " easily modify surrounding punctuation
 Plugin 'tpope/vim-fugitive' " git interface: blame, diff, etc.
@@ -94,10 +94,10 @@ noremap <Leader>r! :edit<CR>
 vnoremap < <gv
 vnoremap > >gv
 
-" Rspec-Vim
-noremap <Leader>spa :w <bar> :call RunAllSpecs()<CR>
-noremap <Leader>sp :w <bar> :call RunCurrentSpecFile()<CR>
-noremap <Leader>spn :w <bar> :call RunNearestSpec()<CR>
+" vim-test
+noremap <Leader>spa :w <bar> :TestSuite<CR>
+noremap <Leader>sp :w <bar> :TestFile<CR>
+noremap <Leader>spn :w <bar> :TestNearest<CR>
 
 " airline config
 let g:airline_powerline_fonts = 1
