@@ -58,7 +58,7 @@ alias website="cd ~/Code/website"
 alias zuul="cd ~/Code/zuul"
 
 # BetterUp dirs
-alias betterup="cd ~/Code/betterup-app"
+alias cal="cd ~/Code/Calendly/calendly"
 
 # Utility commands
 alias weather="curl http://wttr.in/atlanta"
