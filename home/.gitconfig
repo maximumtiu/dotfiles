@@ -1,6 +1,6 @@
 [user]
-  name = Megan Tiu
-  email = megantiu@me.com
+  name = Max Tiu
+  email = max@maximumtiu.com
 [filter "lfs"]
   clean = git-lfs clean %f
   smudge = git-lfs smudge %f
@@ -17,7 +17,7 @@
 [credential]
   helper = osxkeychain
 [github]
-  user = megantiu@me.com
+  user = max@maximumtiu.com
 [color]
   ui = auto
 [color "status"]
@@ -35,4 +35,4 @@
 [color "branch"]
   current = 49
 [pull]
-	rebase = true
+  rebase = false
