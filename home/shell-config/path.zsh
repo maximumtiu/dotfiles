@@ -3,6 +3,7 @@ export PATH=~/:$PATH
 export PATH="/Applications/chromedriver:$PATH"
 export PATH="/Library/Frameworks/Python.framework/Versions/3.4/bin:${PATH}" # Python 3.4, original saved in .bash_profile.pysave
 export PATH="/usr/bin/python:$PATH"
+#export PATH="/usr/local/opt/llvm/bin:$PATH"
 # nvm
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"

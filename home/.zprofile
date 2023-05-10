@@ -6,6 +6,9 @@ source $src_dir/env-vars.zsh
 source $src_dir/aliases.zsh
 [ -f ~/.bashrc.private ] && source ~/.bashrc.private
 
+# running calendly specs
+ulimit -n 4096
+
 # prints all colors for a 256-colored terminal
 term_colors() {
   for i in {0..255}; do

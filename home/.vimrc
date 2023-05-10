@@ -26,6 +26,9 @@ set backupcopy=no
 " Autosave on buffer change or focus loss
 "autocmd BufLeave,FocusLost * silent! w
 
+" Read .arb files as ruby
+autocmd BufRead,BufNewFile *.arb setfiletype ruby
+
 " Settings for two-space tabs
 set tabstop=2
 set shiftwidth=2
@@ -55,11 +58,13 @@ Plugin 'vim-test/vim-test' " easily run various types of tests within vim
 Plugin 'tpope/vim-rails' " rails-related shortcuts and highlighting
 Plugin 'tpope/vim-surround' " easily modify surrounding punctuation
 Plugin 'tpope/vim-fugitive' " git interface: blame, diff, etc.
+Plugin 'tpope/vim-rhubarb' " enable :GBrowse with GitHub
 Plugin 'tpope/vim-endwise' " auto-close ruby ends and more
 Plugin 'Townk/vim-autoclose' " auto-close parens, brackets, etc.
 Plugin 'terryma/vim-multiple-cursors' " sublime-like multi-cursors
 Plugin 'ervandew/supertab' " tab auto-complete
 Plugin 'ngmy/vim-rubocop' " run rubocop within vim
+Plugin 'editorconfig/editorconfig-vim' " respect editorconfig
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required

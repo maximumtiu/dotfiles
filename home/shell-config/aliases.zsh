@@ -57,8 +57,9 @@ alias fitteryjs="cd ~/Documents/Fittery/fitteryjs"
 alias website="cd ~/Code/website"
 alias zuul="cd ~/Code/zuul"
 
-# BetterUp dirs
+# Calendly dirs
 alias cal="cd ~/Code/Calendly/calendly"
+alias crt="~/.crt/crt"
 
 # Utility commands
 alias weather="curl http://wttr.in/atlanta"
