@@ -36,3 +36,5 @@
   current = 49
 [pull]
   rebase = false
+[url "https://github.com/"]
+	insteadOf = git@github.com:

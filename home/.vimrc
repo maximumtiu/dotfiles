@@ -46,7 +46,8 @@ call vundle#begin()
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim' " package manager
 Plugin 'sheerun/vim-polyglot' " multi-language syntax highlighting
-Plugin 'megantiu/true.vim' " my personal colorscheme
+Plugin 'prisma/vim-prisma' " prisma syntax highlighting
+Plugin 'maximumtiu/true.vim' " my personal colorscheme
 Plugin 'lilydjwg/colorizer' " highlight color hex codes
 Plugin 'vim-airline/vim-airline' " pretty airline status bar
 Plugin 'airblade/vim-gitgutter' " show git changes in the gutter

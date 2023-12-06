@@ -6,6 +6,7 @@ alias ....="cd ../../.."
 alias grep="grep --color"
 
 # Because `git` aliases are still too much typing
+alias current-branch="git symbolic-ref --short HEAD"
 alias gs="git status -sb"
 alias gb="git branch"
 alias gco="git checkout"
@@ -18,6 +19,7 @@ alias gcam="git commit -am"
 alias gl="git log"
 alias gp="git push"
 alias gpo="git push origin"
+alias gpup="git push origin $(current-branch)"
 alias gpl="git pull"
 alias gdH="git diff HEAD"
 alias gd="git diff"
@@ -33,6 +35,7 @@ alias gundo="git reset --soft HEAD~1"
 alias gcp="git cherry-pick"
 alias gdlast="git diff HEAD\^ HEAD"
 alias gbg="gb | grep $1" # grep the git branch output
+alias gg="git grep"
 
 # Always prefer bundle exec everything
 alias be="bundle exec"
